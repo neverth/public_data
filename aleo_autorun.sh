@@ -4,6 +4,8 @@ echo "Start"
 
 command="nohup ./aleo-miner -u stratum+tcp://aleo-asia.f2pool.com:4400 -w $1 >> ./aleo-miner.log 2>&1 &"
 
+echo $command
+
 # 设置执行命令的间隔时间(单位:秒)
 interval=7200 # 2小时
 
