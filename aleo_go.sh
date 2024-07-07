@@ -19,7 +19,7 @@ sudo apt-get install unzip
 # 启动代理
 wget -O mihomo-linux-amd64-v1.18.6.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.18.6/mihomo-linux-amd64-v1.18.6.gz
 
-gzip -d mihomo-linux-amd64-v1.18.6.gz
+gzip -f -d mihomo-linux-amd64-v1.18.6.gz
 
 chmod +x mihomo-linux-amd64-v1.18.6
 
@@ -44,7 +44,7 @@ curl google.com
 # wakuang
 wget -O Aleo+miner+2.7.6.zip https://public-download-ase1.s3.ap-southeast-1.amazonaws.com/aleo-miner/Aleo+miner+2.7.6.zip
 
-unzip Aleo+miner+2.7.6.zip
+unzip -o Aleo+miner+2.7.6.zip
 
 chmod +x aleo.sh && chmod +x aleo-miner
 
